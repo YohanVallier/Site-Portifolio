@@ -1,0 +1,40 @@
+:root {
+    --cor-de-fundo: #1A1A1D;
+    --cor-principal: #E0E0E0;
+    --cor-secundaria: #AD49E1;
+    --cor-vibrante: #6200EA;
+    --cor-escurecer: #3700B3;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 130px 50px 0 50px; 
+}
+
+.about-me h1 {
+    font-size: 3.5em; 
+    color: var(--cor-secundaria);
+}
+
+.about-content {
+    flex: 1;
+    text-align: left;
+}
+
+.about-image {
+    flex: 3;
+    text-align: right;
+}
+
+.about-image img {
+    border-radius: 48%;
+}
+
+.apresentacao {
+    font-size: 1.5em;
+    padding: 90px;
+    text-align: justify;
+}
+

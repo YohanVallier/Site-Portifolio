@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+    --cor-de-fundo: #1A1A1D;
+    --cor-principal: #E0E0E0;
+    --cor-secundaria: #AD49E1;
+    --cor-vibrante: #6200EA;
+    --cor-escurecer: #3700B3;
+
+    --font-principal: "Krona One", sans-serif;
+    --font-secundaria: "Montserrat", sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-secundaria);
+    color: var(--cor-principal); /* Texto claro */
+    background-color: var(--cor-de-fundo); /* Fundo escuro */
+    line-height: 1.6;
+}
+
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(49, 49, 49, 0.877); /* Fundo semi-transparente */
+    padding: 10px 20px;
+    border-radius: 0 0 20px 20px; /* Bordas arredondadas na parte inferior */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombreamento */
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: center; /* Centraliza os links */
+}
+
+.navbar a {
+    margin: 0 15px;
+    color: var(--cor-principal); /* Texto claro */
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 15px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas nos links */
+    /* transition: background-color 0.3s ease, color 0.3s ease;  */
+}
+
+.navbar a:hover {
+    background-color: var(--cor-vibrante); /* Roxo vibrante ao passar o mouse */
+    color: #ffffff; /* Texto branco ao passar o mouse */
+}
+
+
+.texto-apresentacao {
+    padding-top: 10px;
+    color: #7A1CAC;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em; 
+    margin-bottom: 10px; 
+    font-weight: bold;
+}
+
+/* Seções */
+section {
+    margin-top: 50px;
+    padding: 60px 20px;
+}
+
+.secao {
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--cor-principal); /* Texto claro */
+}
+
+
+.secao h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: var(--cor-secundaria);
+    font-family: var(--font-principal);
+}
+
+.secao p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+/* Botões */
+.btn {
+    background-color: var(--cor-vibrante); /* Roxo vibrante */
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    color: rgba(255, 255, 255, 0.329);
+    background-color: var(--cor-escurecer); /* Roxo escuro */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1E1E1E; /* Cinza escuro */
+    color: #E0E0E0; /* Texto claro */
+}

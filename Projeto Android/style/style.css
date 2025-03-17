@@ -1,0 +1,184 @@
+@font-face {
+    font-family: "Android";
+    src: url("../fonts/idroid.otf") format("opentype");
+    font-weight: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: "Bebas Neue", cursive;
+    --fonte-Android: "Android"
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #83DFAB;
+    font-family: var(--font-padrao);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background: linear-gradient(to bottom, #38CA79, #288B54, #1A5C38);
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+}
+
+h2 {
+    color: #1F603C;
+    font-family: var(--fonte-Android);
+    font-weight: normal;
+}
+
+nav {
+    background-color: #1A5C38;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav > a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav > a:hover {
+    background-color: #38CA79;
+    color: #1A5C38;
+    border-radius: 5%;
+}
+
+.texto-apresentacao {
+    padding-top: 10px;
+    color: #7A1CAC;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em; 
+    margin-bottom: 10px; 
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding:0px 10px 0px 10px;
+
+}
+
+h3 {
+    background: linear-gradient(to right ,#C8ECD8, white);
+    color: #1F603C;
+    font-family: var(--fonte-Android);
+    font-weight: normal;
+}
+
+main > p {
+    text-indent: 30px;
+    font-size: 1em;
+}
+
+main > p > a {
+    text-decoration: none;
+    color: #1A5C38;
+    background-color: #83DFAB;
+    padding: 0px 5px;
+}
+
+main > p > a:hover {
+    text-decoration: underline;
+    color: #288B54;
+}
+
+strong {
+    font-weight: bold;
+    color:#1A5C38;
+}
+
+.bugdroid {
+    height: 30%;
+    width: 30%;
+    margin: auto;
+}
+
+iframe {
+    width: 100%;
+    height: 31.25em;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #38CA79;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+div > h4 {
+    color: white;
+    background-color: #1F603C;
+    margin: -10px -10px 0 -10px;
+    padding: 10px;
+    border-radius: 10px 10px 0 0px;
+}
+
+div > ul {
+    list-style-position: inside;
+    columns: 2;
+}
+
+p.final {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #288B54;
+}
+
+footer > p > a {
+    color: #38CA79;
+    text-decoration: none;
+}
+
+footer > p > a:hover{
+    text-decoration: underline;
+    color: #83DFAB;
+}
+
+
+@media(max-width: 720px) {
+    .imagem1 {
+        content: url('../image/dan-droids-pq.png');
+    }
+
+    .imagem2 {
+        content: url("../image/irina-blok-pq.jpg")
+    }
+
+    .bugdroid {
+        height: 60%;
+        width: 60%;
+        margin: auto
+    }
+}
