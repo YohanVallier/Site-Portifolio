@@ -74,51 +74,6 @@ main {
     margin-top: 90px;
 }
 
-section {
-    padding: 60px 20px;
-}
-
-.secao {
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: var(--cor-principal); /* Texto claro */
-}
-
-
-.secao h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-    color: var(--cor-secundaria);
-    font-family: var(--font-principal);
-}
-
-.secao p {
-    font-size: 1.5rem;
-    margin-bottom: 30px;
-}
-
-/* Botões */
-.btn {
-    background-color: var(--cor-vibrante); /* Roxo vibrante */
-    padding: 12px 30px;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    cursor: pointer;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-    color: rgba(255, 255, 255, 0.329);
-    background-color: var(--cor-escurecer); /* Roxo escuro */
-}
-
 /* Footer */
 footer {
     text-align: center;

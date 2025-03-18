@@ -11,6 +11,10 @@
     padding: 0%;
 }
 
+main {
+    margin-top: -5px;
+}
+
 .about-me {
     display: flex;
     justify-content: space-between;
