@@ -6,6 +6,11 @@
     --cor-escurecer: #3700B3;
 }
 
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
 .about-me {
     display: flex;
     justify-content: space-between;
@@ -19,8 +24,10 @@
 }
 
 .about-content {
-    flex: 1;
+    display: flex;
     text-align: left;
+    align-items: center;
+    padding: 60px;
 }
 
 .about-image {

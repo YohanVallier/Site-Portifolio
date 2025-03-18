@@ -50,7 +50,7 @@ body {
     text-decoration: none;
     padding: 10px 15px; /* Espaçamento interno */
     border-radius: 10px; /* Bordas arredondadas nos links */
-    /* transition: background-color 0.3s ease, color 0.3s ease;  */
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .navbar a:hover {
@@ -69,8 +69,12 @@ body {
 }
 
 /* Seções */
+
+main {
+    margin-top: 90px;
+}
+
 section {
-    margin-top: 50px;
     padding: 60px 20px;
 }
 
