@@ -49,3 +49,14 @@ main {
     text-align: justify;
 }
 
+@media (max-width: 768px) {
+    .apresentacao{
+        margin: 10px -60px;
+    }
+
+    .about-me {
+        flex-direction: column;
+        padding: 0%;
+        margin-top: 50%;
+    }
+}

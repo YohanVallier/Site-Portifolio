@@ -22,3 +22,9 @@ li {
 li:hover {
     background: #a3a2a2;
 }
+
+@media (max-width: 768px) {
+    main{
+        margin-top: 70%;
+    }
+}

@@ -11,7 +11,8 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: var(--cor-principal); /* Texto claro */
+    color: var(--cor-principal);
+    gap: 30px;
 }
 
 
@@ -42,4 +43,10 @@ main {
 .btn:hover {
     color: rgba(255, 255, 255, 0.329);
     background-color: var(--cor-escurecer); /* Roxo escuro */
+}
+
+@media (max-width: 768px) {
+    .secao{
+        margin-top: 90%;
+    }
 }
