@@ -20,16 +20,23 @@
     </header>
 <main>
     <section>
-        <h2>Entre em Contato</h2>
-        <p><strong>Telefone:</strong></p><input type="number" name="numero" id="inumero">
-        <div>
-            <a href="https://github.com/YohanVallier" target="_blank"><img src="image/icone-github.svg" alt="">Meu GitHub</a>
-            <a href="https://www.linkedin.com/in/yohan-vallier-895a342b7/?trk=opento_sprofile_topcard" target="_blank"><img src="image/icone-linkedin.svg" alt="Linkedin">Meu LinkedIn</a>
+        <h2>Preencha para que eu entre em contato com você!</h2>
+        <form class="formulario" onsubmit="return envioFormulario()">
+            <div class="divisor"><label for="inome"><strong>Nome:</strong></label><input type="text" name="nome" id="inome" placeholder="Nome e sobrenome" required></div>
+            <div class="divisor"><label for="iemail"><strong>E-mail:</strong></label><input type="email" name="email" id="iemail" placeholder="alguma@coisa.com" required></div>
+            <div class="divisor"><label for="inumero"><strong>Telefone:</strong></label><input type="tel" name="numero" id="inumero" placeholder="(xx)xxxxx-xxxx" required></div>
+            <input type="submit" value="enviar" class="enviar">
+        </form>
+        <p class="minhas_redes">Acesse minhas redes:</p>  
+        <div class="btn">
+            <a href="https://github.com/YohanVallier" target="_blank"><img src="image/icone-github.svg" alt="">GitHub</a>
+            <a href="https://www.linkedin.com/in/yohan-vallier-895a342b7/?trk=opento_sprofile_topcard" target="_blank"><img src="image/icone-linkedin.svg" alt="Linkedin">LinkedIn</a>
         </div>
     </section>
 </main>
 <footer>
     <p>&copy; Desenvolvido por Yohan Vallier</p>
 </footer>
+<script src="../js/formulario.js"></script>
 </body>
 </html>
