@@ -51,14 +51,14 @@ nav {
     gap: 20px;
 }
 
-nav > a {
+nav div a {
     text-align: center;
     color: white;
     text-decoration: none;
     padding: 10px;
 }
 
-nav > a:hover {
+nav div a:hover {
     background-color: #38CA79;
     color: #1A5C38;
     border-radius: 5%;
@@ -71,6 +71,10 @@ nav > a:hover {
     font-size: 1.5em; 
     margin-bottom: 10px; 
     font-weight: bold;
+}
+
+.menu_botão {
+    display: none;
 }
 
 main {
@@ -124,7 +128,7 @@ iframe {
     height: 31.25em;
 }
 
-div {
+.evolucao {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -133,7 +137,7 @@ div {
     border-radius: 10px;
 }
 
-div > h4 {
+.evolucao > h4 {
     color: white;
     background-color: #1F603C;
     margin: -10px -10px 0 -10px;
@@ -141,7 +145,7 @@ div > h4 {
     border-radius: 10px 10px 0 0px;
 }
 
-div > ul {
+.evolucao > ul {
     list-style-position: inside;
     columns: 2;
 }
@@ -180,5 +184,27 @@ footer > p > a:hover{
         height: 60%;
         width: 60%;
         margin: auto
+    }
+
+    .menu_botão {
+        display: grid;
+    }
+
+    .menu_botão img {
+        height: 25px;
+        width: 25px;
+        border-radius: 100%;
+    }
+    
+    .show {
+        display: none;
+    }
+
+    nav p {
+        font-size: 1.3em;
+    }
+
+    nav a {
+        display: block; /* Exibe links como blocos */
     }
 }

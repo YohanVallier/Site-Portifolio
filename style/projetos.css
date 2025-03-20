@@ -48,6 +48,10 @@ a {
 
 
 @media (max-width: 768px) {
+    .project-container{
+        margin-left: 20%;
+    }
+
     .project {
         width: 70%;
         margin: 15px 0;

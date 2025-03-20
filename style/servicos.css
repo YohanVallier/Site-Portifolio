@@ -25,6 +25,16 @@ li:hover {
 
 @media (max-width: 768px) {
     main{
-        margin-top: 70%;
+        margin-top: 20%;
+    }
+
+    section {
+        max-width: 400px;
+        margin: 50px auto;
+        padding: 30px;
+    }
+
+    h2{
+        margin-bottom: 5%;
     }
 }

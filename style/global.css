@@ -84,7 +84,7 @@ footer {
 
 @media (max-width: 768px) {
     main {
-        margin-top: 50%;
+        margin-top: 20%;
     }
 
     .menu_botão {
@@ -92,26 +92,24 @@ footer {
     }
 
     .menu_botão img {
-        height: 30px;
-        width: 30px;
-        border-radius: 100px;
-
+        height: 25px;
+        width: 25px;
+        border-radius: 100%;
     }
 
-    .menu {
+    .show {
         display: none;
     }
 
     .navbar p {
-        font-size: 1.2em;
-        align-items: flex-start;
-    }
-
-    footer {
-        margin-top: 50%;
+        font-size: 1.3em;
     }
 
     .navbar a {
         display: block; /* Exibe links como blocos */
+    }
+
+    footer {
+        margin-top: 50%;
     }
 }

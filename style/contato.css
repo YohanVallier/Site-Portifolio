@@ -75,7 +75,6 @@ h2 {
     background-color: #141414;
     border-radius: 30px;
     text-decoration: none;
-    transition: background 0.3s;
 }
 
 .btn a:hover {
@@ -83,4 +82,17 @@ h2 {
     background: #363636;
     color: #AD49E1;
     transition: border 0.4s, color 0.4s;
+}
+
+
+@media (max-width:768px) {
+    section {
+        max-width: 400px;
+        margin: 90px auto;
+        padding: 20px;
+    }
+
+    h2 {
+        margin-bottom: 5%;
+    }
 }

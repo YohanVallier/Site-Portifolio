@@ -57,6 +57,6 @@ main {
     .about-me {
         flex-direction: column;
         padding: 0%;
-        margin-top: 50%;
+        margin-top: 10%;
     }
 }
