@@ -47,6 +47,10 @@ main {
 
 @media (max-width: 768px) {
     .secao{
-        margin-top: 90%;
+        margin-top: 60%;
+    }
+
+    footer {
+        margin-top: 100%;
     }
 }
