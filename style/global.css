@@ -76,6 +76,7 @@ main {
 
 /* Footer */
 footer {
+    margin-top: 100%;
     text-align: center;
     padding: 20px 0;
     background-color: #1E1E1E; /* Cinza escuro */
