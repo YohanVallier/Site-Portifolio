@@ -57,12 +57,11 @@ main {
     }
 
     .about-content {
-        padding: 20px;
         text-align: center;
     }
 
     .apresentacao{
         margin: 10px -60px;
-        padding: 70px;
+        padding: 49px;
     }
 }

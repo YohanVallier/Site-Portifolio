@@ -50,7 +50,8 @@ a {
 @media (max-width: 768px) {
     .project {
         width: 93%;
-        margin: 15px 0;
-        margin-right: auto;
+    }
+    .project-container {
+        margin-right:50%;
     }
 }
