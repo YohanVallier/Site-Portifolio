@@ -101,6 +101,10 @@ footer {
         display: none;
     }
 
+    .menu {
+        margin: 30px;
+    }
+
     .navbar p {
         font-size: 1.3em;
     }
