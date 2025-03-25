@@ -47,11 +47,13 @@ a {
 }
 
 
-@media (max-width: 768px) {
+@media screen and (orientation: portrait) {
     .project {
-        width: 93%;
+        width: 90%;
     }
+
     .project-container {
-        margin-right:50%;
+        margin: auto;
     }
 }
+

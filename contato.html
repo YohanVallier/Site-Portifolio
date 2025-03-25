@@ -28,11 +28,12 @@
 <main>
     <section>
         <h2>Preencha para que eu entre em contato com você!</h2>
-        <form class="formulario" onsubmit="return envioFormulario()">
+        <form class="formulario">
             <div class="divisor"><label for="inome"><strong>Nome:</strong></label><input type="text" name="nome" id="inome" placeholder="Nome e sobrenome" required></div>
             <div class="divisor"><label for="iemail"><strong>E-mail:</strong></label><input type="email" name="email" id="iemail" placeholder="alguma@coisa.com" required></div>
             <div class="divisor"><label for="inumero"><strong>Telefone:</strong></label><input type="tel" name="numero" id="inumero" placeholder="(xx)xxxxx-xxxx" required></div>
             <input type="submit" value="enviar" class="enviar">
+            <div id="mensagem">Enviada com sucesso!</div>
         </form>
         <p class="minhas_redes">Acesse minhas redes:</p>  
         <div class="btn">
@@ -44,6 +45,6 @@
 <footer>
     <p>&copy; Desenvolvido por Yohan Vallier</p>
 </footer>
-<script src="../js/formulario.js"></script>
+<script src="js/formulario.js"></script>
 </body>
 </html>
