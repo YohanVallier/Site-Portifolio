@@ -4,6 +4,6 @@ function acaoMenu() {
     const navbar = document.querySelector(".navbar");
     const wrapper = document.querySelector('.menu-wrapper');
     menu.classList.toggle('show'); 
-    menu.style.marginRight = "8%";
+    menu.style.marginRight = "28px";
     wrapper.style.marginLeft = "80%";
 };

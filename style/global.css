@@ -91,7 +91,9 @@ footer {
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
+
 
     .menu_botão {
         display: flex;
@@ -110,11 +112,11 @@ footer {
 
     .navbar p {
         font-size: 1.3em;
+        padding: 20px;
     }
 
     .navbar a {
         display: block;
-        padding: 10px;
     }
 
     footer {
