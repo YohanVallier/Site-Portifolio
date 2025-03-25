@@ -60,7 +60,6 @@ main {
 
     .about-me {
         flex-direction: column;
-        padding: 10px;
     }
 
     .about-content {

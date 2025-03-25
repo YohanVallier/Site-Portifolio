@@ -104,8 +104,6 @@ footer {
         background-color: #313131e0;
     }
 
-
-
     .show {
         display: none;
     }
@@ -116,6 +114,7 @@ footer {
 
     .navbar a {
         display: block;
+        padding: 10px;
     }
 
     footer {
