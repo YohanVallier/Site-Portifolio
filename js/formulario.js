@@ -11,5 +11,5 @@ document.querySelector('.formulario').addEventListener('submit', function(event)
     mensagemDiv.style.gap = "10px";
 
     setTimeout(() => {
-        mensagemDiv.style.opacity = "0"; mensagemDiv.style.transition = "opacity 0.3s"}, 1500);
+        mensagemDiv.style.opacity = "0"; mensagemDiv.style.transition = "opacity 0.3s"}, 2000);
     });

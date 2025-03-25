@@ -72,8 +72,6 @@ main {
     margin-top: 90px;
 }
 
-
-
 /* Footer */
 footer {
     margin-top: 100%;
@@ -83,7 +81,7 @@ footer {
     color: #E0E0E0; /* Texto claro */
 }
 
-@media (max-width: 768px) {
+@media screen and (orientation: portrait) {
     main {
         margin-top: 20%;
     }
@@ -92,6 +90,7 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        align-items: center;
     }
 
     .menu_botão {
@@ -100,15 +99,12 @@ footer {
     }
 
     .menu_botão img {
-        height: 25px;
+        height: auto;
         width: 25px;
         background-color: #313131e0;
     }
 
-    .separador_menu_botão {
-        display: flex;
-        justify-content: flex-start;
-    }
+
 
     .show {
         display: none;

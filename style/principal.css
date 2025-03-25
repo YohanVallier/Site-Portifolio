@@ -45,9 +45,9 @@ main {
     background-color: var(--cor-escurecer); /* Roxo escuro */
 }
 
-@media (max-width: 768px) {
+@media screen and (orientation: portrait) {
     .secao{
-        margin-top: 120%;
+        margin-top: 50%;
     }
 
     footer {

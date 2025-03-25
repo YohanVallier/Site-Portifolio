@@ -23,9 +23,9 @@ li:hover {
     background: #a3a2a2;
 }
 
-@media (max-width: 768px) {
+@media screen and (orientation: portrait) {
     main{
-        margin-top: 30%;
+        margin-top: 20%;
     }
 
     section {
