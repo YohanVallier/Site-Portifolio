@@ -81,7 +81,7 @@ footer {
     color: #E0E0E0; /* Texto claro */
 }
 
-@media screen and (orientation: portrait) {
+@media only screen and (min-width: 768px) {
     main {
         margin-top: 20%;
     }

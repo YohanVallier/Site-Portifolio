@@ -49,7 +49,7 @@ main {
     text-align: justify;
 }
 
-@media screen and (orientation: portrait) {
+@media only screen and (min-width: 768px) {
     main {
         display: flex;
         flex-direction: column;
