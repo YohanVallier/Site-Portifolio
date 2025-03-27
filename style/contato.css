@@ -90,12 +90,10 @@ h2 {
 
 .btn a:hover {
     border: 3px solid #c506cc;
-    background: #363636;
-    color: #AD49E1;
-    transition: border 0.4s, color 0.4s;
+    transition: border 0.4s;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     section {
         max-width: 400px;
         margin: 150px auto;
