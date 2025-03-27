@@ -7,6 +7,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
+    --cor-de-fundo: #1A1A1D;
+    --cor-principal: #E0E0E0;
+    --cor-secundaria: #AD49E1;
+    --cor-vibrante: #6200EA;
+    --cor-escurecer: #3700B3;
+
     --font-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: "Bebas Neue", cursive;
     --fonte-Android: "Android"
@@ -26,7 +32,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    background: linear-gradient(to bottom, #38CA79, #288B54, #1A5C38);
+    background: var(--cor-de-fundo);
     color: white;
     padding: 40px;
     text-align: center;
@@ -43,8 +49,36 @@ h2 {
     font-weight: normal;
 }
 
+.navbar {
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+    background: #1a1a1df8; /* Fundo semi-transparente */
+    padding: 10px 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombreamento */
+}
+
+.navbar a {
+    margin: 0 15px;
+    color: var(--cor-principal); /* Texto claro */
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas nos links */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: var(--cor-vibrante); /* Roxo vibrante ao passar o mouse */
+    color: #ffffff; /* Texto branco ao passar o mouse */
+}
+
+
 nav {
-    background-color: #1A5C38;
+    background-color: var(--cor-de-fundo);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -171,13 +205,13 @@ footer > p > a:hover{
 }
 
 
-@media(max-width: 720px) {
+@media only screen and (max-width: 600px) {
     .imagem1 {
-        content: url('../image/dan-droids-pq.png');
+        content: url('../image android/dan-droids-pq.png');
     }
 
     .imagem2 {
-        content: url("../image/irina-blok-pq.jpg")
+        content: url("../image android/irina-blok-pq.jpg");
     }
 
     .bugdroid {
@@ -186,25 +220,54 @@ footer > p > a:hover{
         margin: auto
     }
 
+    nav a {
+        display: block; /* Exibe links como blocos */
+    }
+
+    .menu_wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+    }
+
+
     .menu_botão {
-        display: grid;
+        display: flex;
+        align-items: center;
     }
 
     .menu_botão img {
-        height: 25px;
-        width: 25px;
-        border-radius: 100%;
+        height: auto;
+        width: 28px;
+        background-color: #313131e0;
     }
-    
+
     .show {
         display: none;
     }
 
-    nav p {
-        font-size: 1.3em;
+    .navbar {
+        padding: 0%;
+        margin: 0%;
     }
 
-    nav a {
-        display: block; /* Exibe links como blocos */
+    .navbar p {
+        font-size: 1.3em;
+        padding: 20px;
     }
-}
+
+    .navbar a {
+        display: block;
+        text-align: center;
+        padding: 25px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 50%;
+    }
+    }

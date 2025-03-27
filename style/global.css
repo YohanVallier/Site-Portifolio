@@ -55,7 +55,6 @@ body {
 .navbar a:hover {
     background-color: var(--cor-vibrante); /* Roxo vibrante ao passar o mouse */
     color: #ffffff; /* Texto branco ao passar o mouse */
-
 }
 
 .texto-apresentacao {
@@ -121,6 +120,7 @@ footer {
 
     .navbar a {
         display: block;
+        text-align: center;
         padding: 25px;
     }
 

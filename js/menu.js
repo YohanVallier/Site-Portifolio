@@ -1,9 +1,20 @@
 function acaoMenu() {
     const menu = document.querySelector('.menu');
-    const menu_botão = document.querySelector('.menu_botão');
-    const wrapper = document.querySelector('.menu-wrapper');
+    const wrapper = document.querySelector('.menu_wrapper');
+    const botão = document.querySelector('.menu_botão img');
 
     menu.classList.toggle('show');
-    menu_botão.style.display = "none";
-    wrapper.style.marginLeft = "80%";
+    if (menu.classList.contains('show')) {
+        wrapper.style.display = 'flex';
+        wrapper.style.flexDirection = 'row';
+        botão.style.width = '28px';
+        botão.style.height = '28px';
+
+    } else {
+        wrapper.style.display = 'flex';
+        wrapper.style.flexDirection = 'column';
+        botão.style.width = '40px';
+        botão.style.height = '40px';
+    }
+
 };
