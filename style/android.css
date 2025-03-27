@@ -235,6 +235,7 @@ footer > p > a:hover{
     .menu_botão {
         display: flex;
         align-items: center;
+        margin-bottom: 5px;
     }
 
     .menu_botão img {
