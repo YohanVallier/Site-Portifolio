@@ -32,10 +32,6 @@ body {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombreamento */
 }
 
-.menu_botão {
-    display: none;
-}
-
 .navbar nav {
     display: flex;
     justify-content: center;
@@ -64,6 +60,10 @@ body {
     font-size: 1.5em;
     margin-bottom: 10px;
     font-weight: bold;
+}
+
+.menu_botão {
+    display: none;
 }
 
 /* Seções */
