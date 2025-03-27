@@ -6,15 +6,11 @@ function acaoMenu() {
     menu.classList.toggle('show');
     if (menu.classList.contains('show')) {
         wrapper.style.display = 'flex';
-        wrapper.style.flexDirection = 'row';
-        botão.style.width = '28px';
-        botão.style.height = '28px';
+        wrapper.style.flexDirection = 'column';
 
     } else {
         wrapper.style.display = 'flex';
         wrapper.style.flexDirection = 'column';
-        botão.style.width = '40px';
-        botão.style.height = '40px';
     }
 
 };

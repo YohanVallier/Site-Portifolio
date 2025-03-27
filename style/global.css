@@ -87,7 +87,7 @@ footer {
 
     .menu_wrapper {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         text-align: center;
     }
@@ -96,13 +96,16 @@ footer {
     .menu_botão {
         display: flex;
         align-items: center;
+        background-color: #31313191;;
+        width: 100%;
         margin-bottom: 5px;
     }
 
     .menu_botão img {
+        margin: auto;
         height: auto;
         width: 28px;
-        background-color: #313131e0;
+        background-color: #31313186;
     }
 
     .show {
