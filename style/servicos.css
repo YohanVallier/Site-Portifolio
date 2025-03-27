@@ -24,10 +24,6 @@ li:hover {
 }
 
 @media only screen and (max-width: 600px) {
-    main{
-        margin-top: 20%;
-    }
-
     section {
         max-width: 400px;
         margin: 50px auto;
