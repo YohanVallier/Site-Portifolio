@@ -267,6 +267,11 @@ footer > p > a:hover{
         padding: 25px;
     }
 
+    .navbar a:hover {
+        width: 80vw;
+        border-radius: 100px;
+    }
+
     nav {
         display: flex;
         flex-direction: column;
